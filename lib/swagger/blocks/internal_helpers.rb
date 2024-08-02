@@ -38,6 +38,8 @@ module Swagger
               component_node = swagger_nodes[:component_node]
             end
           end
+          p "swaggered class ./....#{swaggered_class}"
+          p root_nodes 
         end
 
         data = {root_node: self.limit_root_node(root_nodes)}
